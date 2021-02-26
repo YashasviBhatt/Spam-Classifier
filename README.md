@@ -20,4 +20,4 @@ This Project checks whether a mail is a Spam or not. The Model uses several **NL
 5. The _training set_ is used to train the _model_ using **Multinomial Naive Bayes Classification Algorithm**, since it best works with NLP.
 6. The **Accuracy Score** for this model is then analyzed and it was found out that the model showed a splendid performance having the accuracy score of **97%**.<br><br><br>
 
-**I have used UCI Machine Learning Repository Dataset on SMS Spam Collection Data Set and you can download the dataset from [here](https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip). You can visit their website from [here](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection) and see more info on the dataset.**
+**I have used UCI Machine Learning Repository Dataset on SMS Spam Collection Data Set and you can download the dataset from [here](https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip). You can visit their website and check for more info on dataset from [here](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection).**
