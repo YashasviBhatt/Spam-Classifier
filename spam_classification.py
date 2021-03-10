@@ -26,7 +26,7 @@ df = pd.read_csv('SMSSpamCollection', sep='\t', names=['Label', 'Message'])
 lemmatizer = WordNetLemmatizer()
 
 # Creating an Empty List
-sentences = []
+corpus = []
 
 # Removing all the Extra Chaacters and Symbols from the Text
 for row_idx in range(len(df)):
@@ -35,11 +35,11 @@ for row_idx in range(len(df)):
     msg = msg.split()
     msg = [lemmatizer.lemmatize(word) for word in msg if word not in set(stopwords.words('English'))]
     msg = ' '.join(msg)
-    sentences.append(msg)
+    corpus.append(msg)
     
 # Generating Vectors out of Messages in Data Set and Generating Feature Set
 tfidf_ve = TfidfVectorizer(max_features=3000)
-X = tfidf_ve.fit_transform(sentences).toarray()
+X = tfidf_ve.fit_transform(corpus).toarray()
 
 # Setting Encoding Type
 enc = {
