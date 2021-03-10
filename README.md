@@ -11,6 +11,10 @@ This Project checks whether a mail is a Spam or not. The Model uses several **NL
 4. Type<br>`pip install -r requirements.txt`<br> and press enter in either _command_prompt_ or _powershell window_ as _administrator_.
 5. After Installing all the required _libraries_ run the python file using<br>`python spam_classifier.py`.
 
+### OR
+
+You can simply open up the *spam_classification.ipynb* to see data preprocessing, model building and model evaluation applied.
+
 ## Working
 
 1. Firstly, _data_ is imported using `pandas library`.
